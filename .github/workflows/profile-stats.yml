@@ -1,0 +1,49 @@
+name: Profile stats & contribution snake
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # daily
+  workflow_dispatch:
+  push:
+    branches: [main, profile-redesign]
+    paths:
+      - ".github/workflows/profile-stats.yml"
+      - ".github/scripts/stats.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+          OUT_DIR: dist
+        run: python3 .github/scripts/stats.py
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-dark&color_snake=#A78BFA&color_dots=#161B2E,#2E1065,#5B21B6,#7C3AED,#22D3EE
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          commit_message: "chore: refresh profile stats"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
