@@ -84,6 +84,8 @@ def stats_card(u):
         ("Commits (last year)", cc["totalCommitContributions"], "#F0ABFC"),
         ("Pull requests (last year)", cc["totalPullRequestContributions"], "#60A5FA"),
     ]
+    # Rows that are zero are left out rather than padded (repositories always shown).
+    rows = [r for i, r in enumerate(rows) if i == 0 or r[1] > 0]
     body = [f'<text x="24" y="40" font-family="{SANS}" font-size="18" font-weight="700" fill="#F1F5F9">GitHub activity</text>',
             f'<text x="24" y="60" font-family="{MONO}" font-size="11" fill="#64748B">public data · refreshed daily</text>']
     for i, (label, val, col) in enumerate(rows):
@@ -93,7 +95,7 @@ def stats_card(u):
             f'<text x="44" y="{y}" font-family="{SANS}" font-size="14" fill="#A5B4CF">{esc(label)}</text>'
             f'<text x="466" y="{y}" text-anchor="end" font-family="{SANS}" font-size="16" font-weight="700" fill="{col}">{val:,}</text>'
         )
-    return frame(490, 92 + 6 * 30 - 6, "GitHub activity for " + LOGIN, "".join(body))
+    return frame(490, 92 + len(rows) * 30 - 6, "GitHub activity for " + LOGIN, "".join(body))
 
 
 def languages_card(u):
