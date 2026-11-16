@@ -10,6 +10,7 @@
 <a href="https://linkedin.com/in/yasir-mehmood-53549a1b3"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:yash36114@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-0891B2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://yasir-portfolio-omega.vercel.app/Yasir-Mehmood-Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume PDF"/></a>
+<a href="https://calendly.com/yasir-mehmood"><img src="https://img.shields.io/badge/Book%20a%20call-30%20min-F59E0B?style=for-the-badge&logo=calendly&logoColor=white" alt="Book a 30-minute call on Calendly"/></a>
 
 **[About](#-about-me) · [Tech stack](#️-tech-stack) · [Impact](#-impact-in-production) · [Projects](#-featured-open-source-projects) · [Journey](#️-career-journey) · [Stats](#-github-stats) · [Contact](#-lets-connect)**
 
