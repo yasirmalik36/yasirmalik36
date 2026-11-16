@@ -120,7 +120,7 @@ const yasir = {
 ## 🗺️ Career journey
 
 <p align="center">
-  <img src="assets/timeline.svg" width="100%" alt="Career timeline: Deloitte Senior Consultant from October 2026 to present; AKSA-SDS Senior Software Engineer April 2024 to October 2026; MTBC CareCloud Software Engineer November 2021 to April 2024; Markitech.AI Python and AI Solutions Engineer September 2021 to March 2023, a concurrent remote role" />
+  <img src="assets/timeline.svg" width="100%" alt="Career timeline: Deloitte Senior Consultant from October 2026 to present; AKSA-SDS Software Engineer from April 2024, promoted to Senior Software Engineer in July 2025, until October 2026; MTBC CareCloud Software Engineer November 2021 to April 2024; Markitech.AI Python and AI Solutions Engineer September 2021 to March 2023, a concurrent remote role" />
 </p>
 
 🎓 **BS Software Engineering**, Virtual University of Pakistan (2021 – 2025) · 📜 **AI with Python**, Great Learning · 📱 **Android App Development**, PSDF · 🗣️ English (professional), Urdu (native)
