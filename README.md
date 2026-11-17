@@ -105,7 +105,7 @@ const yasir = {
 ## 🚀 Featured open-source projects
 
 <p align="center">
-  <a href="https://github.com/yasirmalik36/erp-mcp-gateway"><img src="assets/project-erp-mcp-gateway.svg" width="99%" alt="ERP MCP Gateway — .NET 10 MCP server giving AI agents safe, audited ERP access with role-based tools, masking, human approval and a hash-chained audit log, plus an Angular 20 console" /></a>
+  <a href="https://github.com/yasirmalik36/erp-mcp-gateway"><img src="assets/project-erp-mcp-gateway.svg" width="99%" alt="ERP MCP Gateway — .NET 10 MCP server giving AI agents safe, audited ERP access with role-based tools, masking, human approval and a hash-chained audit log, plus an Angular 20 console with light and dark themes" /></a>
 </p>
 <p align="center">
   <a href="https://github.com/yasirmalik36/payment-switch-api"><img src="assets/project-payment-switch.svg" width="49%" alt="Payment Switch API — interbank routing reference build on .NET 8 with Clean Architecture, CQRS and MediatR" /></a>
