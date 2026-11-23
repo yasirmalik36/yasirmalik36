@@ -149,7 +149,7 @@ const yasir = {
 - 🔍 [Effect-TS/effect#10850](https://github.com/Effect-TS/effect/pull/10850) — HttpApi: redact Redacted values in client and server spans
 - 🔍 [DevSimulate/geoinsight#20](https://github.com/DevSimulate/geoinsight/pull/20) — Radius search returns the wrong stations
 
-<sub>Pull requests and their status as shown on GitHub (last checked 2026-11-23).</sub>
+<sub>Pull requests and their status as shown on GitHub, kept up to date automatically.</sub>
 <!-- growth-autopilot:contributions:end -->
 
 ## ✍️ Writing
