@@ -141,6 +141,17 @@ const yasir = {
 </p>
 <p align="center"><sub>Generated daily from public data by a GitHub Action in this repo — no third-party stats service.</sub></p>
 
+<!-- growth-autopilot:contributions:start -->
+## 🌍 Open-source contributions
+
+<sub>In review:</sub>
+
+- 🔍 [Effect-TS/effect#10850](https://github.com/Effect-TS/effect/pull/10850) — HttpApi: redact Redacted values in client and server spans
+- 🔍 [DevSimulate/geoinsight#20](https://github.com/DevSimulate/geoinsight/pull/20) — Radius search returns the wrong stations
+
+<sub>Pull requests and their status as shown on GitHub (last checked 2026-11-23).</sub>
+<!-- growth-autopilot:contributions:end -->
+
 ## ✍️ Writing
 
 - 📖 [Building Production RAG Systems with .NET & LangChain](https://yasir-portfolio-omega.vercel.app/blog/production-rag-systems)
